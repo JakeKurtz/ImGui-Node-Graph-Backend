@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{64814e6b-c2dc-4f37-9171-128b5590e29b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui node">
+      <UniqueIdentifier>{eb7b2658-60a3-4477-9518-0727a1fe0634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{67e56aed-ab59-4071-be34-450be3a37c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Example">
+      <UniqueIdentifier>{a29bc95d-5025-4905-88c2-145c6d547507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basic Example">
+      <UniqueIdentifier>{5bb9a8fc-49a3-4645-874a-1979e1e12db8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="INode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="INodePort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeEditWindow.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeBluePrint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui_demo.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui_tables.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\backends\imgui_impl_glfw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imnodes-0.5\imnodes.cpp">
+      <Filter>Imgui node</Filter>
+    </ClCompile>
+    <ClCompile Include="INodeOptn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader Example\Attachment.cpp">
+      <Filter>Shader Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader Example\Framebuffer.cpp">
+      <Filter>Shader Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader Example\GlslShader.cpp">
+      <Filter>Shader Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader Example\ShaderEngine.cpp">
+      <Filter>Shader Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader Example\ShaderNode.cpp">
+      <Filter>Shader Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader Example\ShaderPort.cpp">
+      <Filter>Shader Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader Example\ShaderProp.cpp">
+      <Filter>Shader Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader Example\ShaderView.cpp">
+      <Filter>Shader Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic Example\BasicEngine.cpp">
+      <Filter>Basic Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic Example\BasicNode.cpp">
+      <Filter>Basic Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic Example\BasicPorts.cpp">
+      <Filter>Basic Example</Filter>
+    </ClCompile>
+    <ClCompile Include="PortLink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLCommon.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngine.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="INode.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="INodeOptn.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="INodePort.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeBluePrint.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeOptns.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeEditWindow.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader Example\Attachment.h">
+      <Filter>Shader Example</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader Example\Framebuffer.h">
+      <Filter>Shader Example</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader Example\GlslShader.h">
+      <Filter>Shader Example</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader Example\ShaderEngine.h">
+      <Filter>Shader Example</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader Example\ShaderNode.h">
+      <Filter>Shader Example</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader Example\ShaderPort.h">
+      <Filter>Shader Example</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader Example\ShaderProp.h">
+      <Filter>Shader Example</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader Example\ShaderView.h">
+      <Filter>Shader Example</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic Example\BasicEngine.h">
+      <Filter>Basic Example</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic Example\BasicNode.h">
+      <Filter>Basic Example</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic Example\BasicPorts.h">
+      <Filter>Basic Example</Filter>
+    </ClInclude>
+    <ClInclude Include="PortLink.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
